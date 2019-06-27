@@ -1,0 +1,6 @@
+
+sudo mount -t iso9660 /dev/cdrom /media/cdrom
+cd /media/cdrom
+sudo sh ./VBoxLinuxAddtions*.run
+mkdir Projetos
+sudo mount -t vboxsf Projects Projetos
